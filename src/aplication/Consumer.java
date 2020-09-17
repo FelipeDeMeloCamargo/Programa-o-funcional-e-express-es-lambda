@@ -1,3 +1,4 @@
+//Consumer foreach executa o que é estipulado em toda a lista sem precisar criar um for, inclusive imprimir
 package aplication;
 
 import java.util.ArrayList;

@@ -1,3 +1,4 @@
+//Predicate removeif atende o que se é colocado para que o faça. Como por exemplo remover um item da lista
 package aplication;
 
 import java.util.ArrayList;

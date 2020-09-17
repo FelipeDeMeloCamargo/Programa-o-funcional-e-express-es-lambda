@@ -27,20 +27,28 @@ public class Product {
 	}
 	
 	public static boolean staticProductPredicate(Product p) {
-		return p.getPrice() >=100;
+		return p.getPrice() >=100;//predicate
 	}
 	
 	public boolean nonstaticProductPredicate() {
-		return price >=100;
+		return price >=100;//predicate
 	}
 
 	public static void staticProductUpdate(Product p) {
-		p.setPrice(p.getPrice() *1.1);
+		p.setPrice(p.getPrice() *1.1);//consumer
 	}
 	
 	public void nonStaticProductUpdate() {
-		price = price *1.1;
+		price = price *1.1;//consumer
 	}
+	
+	public static String staticUpperCaseName(Product p) {
+		return p.getName().toUpperCase(); //function
+	}
+	public String NonStaticUpperCaseName() {
+		return name.toUpperCase();
+	}
+	
 	
 	@Override
 	public String toString() {
